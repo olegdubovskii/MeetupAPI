@@ -1,0 +1,6 @@
+@MeetupAPI.PresentationLayer_HostAddress = http://localhost:5036
+
+GET {{MeetupAPI.PresentationLayer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
