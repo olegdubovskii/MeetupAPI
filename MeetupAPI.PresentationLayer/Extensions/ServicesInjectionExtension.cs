@@ -72,7 +72,7 @@ namespace MeetupAPI.PresentationLayer.Extensions
                 {
                     In = ParameterLocation.Header,
                     Description = "Please, enter token(e.g. 'Bearer [token]')",
-                    Name = "Auth",
+                    Name = "Authorization",
                     Type = SecuritySchemeType.ApiKey,
                     Scheme = "Bearer",
                     BearerFormat = "JWT",
